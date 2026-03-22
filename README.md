@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 Truth Whisper AI
 
-## Getting Started
+🚀 **Live Demo:** https://truth-whisper-ai.vercel.app
 
-First, run the development server:
+A cute, interactive **AI-inspired lie detection web app** that analyzes voice and facial cues to estimate truthfulness.
+Designed with a soft pastel aesthetic and smooth user experience ✨
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💖 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* 🎤 **Audio Input** — Speak or upload your response
+* 📷 **Webcam Capture** — Capture facial cues in real-time
+* 🧠 **Smart Analysis** — Heuristic-based truth estimation
+* 🎨 **Pastel UI** — Soft gradients, clean and aesthetic design
+* ⚡ **Interactive Flow** — Question → Answer → Analyze
+* 📊 **Result Output** — Truth 😊 / Lie 😶‍🌫️
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧩 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+* **Frontend:** Next.js, React
+* **Styling:** Tailwind CSS
+* **Tools:** Cursor (AI-assisted development), GitHub
+* **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 How It Works
 
-## Deploy on Vercel
+1. A question is presented to the user
+2. User responds using voice input or audio upload
+3. Webcam captures facial expression
+4. System analyzes:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   * Speech patterns
+   * Timing & pauses
+   * Basic visual cues
+5. Outputs:
+
+   * **Truth 😊** or **Lie 😶‍🌫️**
+   * Simulated confidence feedback
+
+---
+
+## ⚠️ Disclaimer
+
+> This project is a **prototype** and **NOT a real lie detection system**.
+> It uses heuristic logic for demonstration and educational purposes only.
+
+---
+
+## 🌸 Future Improvements
+
+* 🤖 Integrate real ML models (CNN / RNN)
+* 📊 Advanced confidence scoring
+* ☁️ Backend API integration
+* 📈 Data storage & analytics
+* 🌐 Multi-language support
+
+---
+
+## 💼 Author
+
+**Jenica (@jznica)**
+AIML Student | Exploring AI, NLP & Human-centered tech 💫
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star this repo
+* 💖 Share it
+* 🚀 Add it to your portfolio
+
+---
+
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
